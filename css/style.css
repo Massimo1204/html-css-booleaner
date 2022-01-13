@@ -46,6 +46,13 @@ header {
 .table-body{
     background-color: cadetblue;
 }
+.testo-footer{
+    background-image: url('../img/monitor.jpg');
+    color: white;
+}
+.secondo{
+    background-image: url('../img/graph.jpg');
+}
 
 #size-fonte{
     font-size: 0.75em;
