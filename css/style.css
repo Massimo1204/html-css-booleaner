@@ -1,11 +1,40 @@
+body{
+    width: 1057px;
+}
 header {
     background-image: url('../img/pattern.png');
     background-color: cornflowerblue;
-    background-repeat: repeat-x;
-    background-size: contain;
+    background-repeat: repeat;
+    background-size: 40% 200px;
+    background-position: top;
     height: 100px ;
 }
 #logo {
-    height: 40%;
+    position: absolute;
+    top: 55px;
+    right: 84.7%;
+    height: 45px;
     width: 20%;
+}
+
+.titolo{
+    font-size: 2.5em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.color{
+    color: gray;
+    font-size: 1.2em;
+}
+
+#azzurro{
+    color: deepskyblue;
+}
+
+.size{
+    font-size: 0.6em;
+}
+.immagini{
+    margin-top: 20px;
 }
