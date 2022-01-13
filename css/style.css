@@ -1,16 +1,21 @@
+/* LARGHEZZA PAGINA E FONT */
 body{
     width: 1057px;
-
+    font-weight: 600;
     font-family: 'Playfair Display', serif;
 }
+
+/* IMMAGINE BACKGROUND LOGO */
 header {
     background-image: url('../img/pattern.png');
-    background-color: cornflowerblue;
+    background-color: rgb(78, 160, 255);
     background-repeat: repeat;
     background-size: 40% 200px;
     background-position: top;
     height: 100px ;
 }
+
+/* GRANDEZZA E POSIZIONE LOGO */
 #logo {
     position: absolute;
     top: 55px;
@@ -19,33 +24,57 @@ header {
     width: 20%;
 }
 
+/* DIMENSIONI E POSIZIONE TITOLO */
 .titolo{
-
     font-size: 2.5em;
     margin-top: 15px;
     margin-bottom: 0px;
     
 }
 
+/* TESTO DI COLORE GRIGIO */
 .color{
     color: gray;
     font-size: 1.2em;
 }
 
-#azzurro{
-    color: deepskyblue;
-}
-
+/* DATA IN PICCOLO */
 .size{
     font-size: 0.6em;
 }
 
+/* POSIZIONE IMMAGINI TIM */
 .immagini{
     margin-top: 20px;
 }
-.table-body{
-    background-color: cyan;
+
+/* POSIZIONE PARAGRAFI TESTO */
+.paragrafo{
+    margin-top: 20px;
+    margin-bottom: 30px;
 }
+
+/* TESTO EVIDENZIATO */
+.evidenzia{
+    background-color: yellow;
+}
+
+/* POSIZIONE LISTA */
+.lista{
+    margin-left: -20px;
+}
+
+/* LARGHEZZA COLONNA TABELLA*/
+.colonna{
+    width: 25%;
+}
+
+/* COLORE BODY TABELLA */
+.table-body{
+    background-color: rgb(177, 229, 242);
+}
+
+/* IMMAGINI E TESTO FOOTER */
 .testo-footer{
     background-image: url('../img/monitor.jpg');
     color: white;
@@ -54,27 +83,32 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+/* SECONDA IMMAGINE FOOTER */
 .secondo{
     background-image: url('../img/graph.jpg');
 }
-.paragrafo{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.lista{
-    margin-left: -20px;
-}
-.colonna{
-    width: 25%;
-}
-.evidenzia{
-    background-color: yellow;
+
+/* POSIZIONE TESTO FOOTER */
+.testo{
+    position: relative;
+    left: 10px;
+    top: 10px;
 }
 
+/* GRANDEZZA FONT FONTI IMMAGINI TIM */
 #size-fonte{
     font-size: 0.75em;
 }
 
+/* COLORE TABLE HEAD */
 #table-head{
-    background-color: deepskyblue;
+    background-color: rgb(32, 169, 229);
+    color: white;
+    text-align: left;
+}
+
+/* COLORE THE BOOLEANERS */
+#azzurro{
+    color: rgb(	90, 191, 235);
 }
