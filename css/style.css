@@ -44,14 +44,31 @@ header {
     margin-top: 20px;
 }
 .table-body{
-    background-color: cadetblue;
+    background-color: cyan;
 }
 .testo-footer{
     background-image: url('../img/monitor.jpg');
     color: white;
+    height: 160px;
+    width: 208px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .secondo{
     background-image: url('../img/graph.jpg');
+}
+.paragrafo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.lista{
+    margin-left: -20px;
+}
+.colonna{
+    width: 25%;
+}
+.evidenzia{
+    background-color: yellow;
 }
 
 #size-fonte{
@@ -59,5 +76,5 @@ header {
 }
 
 #table-head{
-    background-color: steelblue;
+    background-color: deepskyblue;
 }
