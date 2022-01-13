@@ -1,5 +1,7 @@
 body{
     width: 1057px;
+
+    font-family: 'Playfair Display', serif;
 }
 header {
     background-image: url('../img/pattern.png');
@@ -18,9 +20,11 @@ header {
 }
 
 .titolo{
+
     font-size: 2.5em;
     margin-top: 15px;
     margin-bottom: 0px;
+    
 }
 
 .color{
@@ -35,6 +39,10 @@ header {
 .size{
     font-size: 0.6em;
 }
+
 .immagini{
     margin-top: 20px;
+}
+#size-fonte{
+    font-size: 0.75em;
 }
