@@ -112,3 +112,8 @@ header {
 #azzurro{
     color: rgb(	90, 191, 235);
 }
+
+/* ELIMINAZIONE BORDI TABELLA */
+table{
+    border-collapse: collapse;
+}
