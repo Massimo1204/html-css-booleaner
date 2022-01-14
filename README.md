@@ -1,3 +1,1 @@
-Esercizio Booleaner
 
-Guarda il sito qui :  https://massimo1204.github.io/html-css-booleaner/
